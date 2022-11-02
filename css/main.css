@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+main {
+  margin-top: 5vh;
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 21rem;
+  min-height: 36rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+figure {
+  position: relative;
+}
+
+#thumb {
+  width: 100%;
+  background-color: hsl(178, 100%, 50%);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  cursor: pointer;
+}
+
+figure img {
+  width: 100%;
+  cursor: pointer;
+}
+
+
+
+h3 {
+  margin-top: 1rem;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+  margin-top: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+footer hr {
+  margin-top: 1rem;
+}
+
+.footer_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.footer_content img {
+  width: 36px;
+  height: 36px;
+  border: solid;
+  border-radius: 25px;
+  border-color: white;
+}
+
+.footer_content p {
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(215, 51%, 70%);
+}
