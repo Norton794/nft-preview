@@ -35,7 +35,7 @@ main {
   border-radius: 10px;
 }
 
-figure {
+.container__figure {
   position: relative;
 }
 
