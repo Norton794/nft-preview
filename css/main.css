@@ -59,7 +59,10 @@ main {
   cursor: pointer;
 }
 
-
+.container__header{
+    margin-top: .5em;
+    font-size: 1.2em;
+}
 
 h3 {
   margin-top: 1rem;
