@@ -54,7 +54,7 @@ figure {
   cursor: pointer;
 }
 
-figure img {
+.container__figure img {
   width: 100%;
   cursor: pointer;
 }
@@ -65,30 +65,30 @@ h3 {
   margin-top: 1rem;
 }
 
-.description {
+.container__description {
   color: hsl(215, 51%, 70%);
   margin-top: 1rem;
 }
 
-.wrapper {
+.container__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 1rem;
 }
 
-footer hr {
+.container__footer hr {
   margin-top: 1rem;
 }
 
-.footer_content {
+.footer__content {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 1rem;
 }
 
-.footer_content img {
+.footer__content img {
   width: 36px;
   height: 36px;
   border: solid;
@@ -96,7 +96,7 @@ footer hr {
   border-color: white;
 }
 
-.footer_content p {
+.footer__content p {
   color: hsl(215, 51%, 70%);
 }
 

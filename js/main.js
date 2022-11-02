@@ -1,4 +1,4 @@
-let img = document.getElementById("figureWrapper")
+let img = document.getElementById("container__figure")
 let thumb = document.getElementById("thumb")
 
 img.addEventListener('mouseover', (event) => {
